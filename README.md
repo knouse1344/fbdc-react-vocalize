@@ -2,7 +2,7 @@
 
 vocalize is a tool used to rapidly prototype web pages through natural spoken language.  The output of this tool is a live website (for normal people), or alternatively you may access the HTML, CSS, and Javascript output (for nerds) that is written by vocalize in real-time as you talk to it.
 
-![vocalize screenshot building an application](https://s3.amazonaws.com/responsivetech/assets/dev_screenshot.jpg "vocalize screenshot")
+![vocalize screenshot building an application](https://s3.amazonaws.com/responsivetech/assets/vehicles.png "vocalize screenshot")
 
 ## table of contents
 
