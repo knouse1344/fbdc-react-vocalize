@@ -1,0 +1,745 @@
+h1, h2, h3, h4, h5, p, span, a, div, ul, li {
+  font-family: 'Barlow', sans-serif;
+}
+
+.root {
+  display: none;
+}
+
+/*  Vocalize Builder Styles  */
+.site-container .section, #site .section {
+  font-size: 1rem;
+  padding: 6em 0;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  background: url("/topography.png");
+  background-position: center;
+  background-repeat: repeat;
+}
+.site-container .banner, #site .banner {
+  display: block;
+  padding: 6em 0;
+  min-height: 60vh;
+  background: #ccc;
+  font-size: 3em;
+  background-image: url("/doodles.png");
+  background-position: center;
+  background-repeat: repeat;
+  transition: background-image 1s ease-in-out;
+}
+.site-container h1, #site h1 {
+  font-size: 6rem;
+  line-height: 9rem;
+  color: #333;
+  margin: 0 0 .25em;
+  font-family: 'Barlow', sans-serif;
+}
+.site-container h3, #site h3 {
+  font-size: 4rem;
+  line-height: 6rem;
+  color: #333;
+  margin: 0 0 .5em;
+  font-family: 'Barlow', sans-serif;
+}
+.site-container p, #site p {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 0 0 1em;
+  color: #333;
+  font-family: 'Barlow', sans-serif;
+}
+.site-container i, #site i {
+  display: inline-block;
+  margin: .5rem;
+  font-size: 4rem;
+  color: #333;
+}
+.site-container #wavesContainer, #site #wavesContainer {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.site-container #wavesContainer canvas, #site #wavesContainer canvas {
+  width: 100%;
+}
+.site-container .red-gradient-bg, #site .red-gradient-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dd2f46+0,870044+100 */
+  background: #dd2f46;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #dd2f46 0%, #870044 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd2f46', endColorstr='#870044',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+.site-container .section, #site .section {
+  padding: 4em 0;
+  border: 0;
+}
+.site-container .section h3, #site .section h3 {
+  font-size: 4rem;
+  margin: 0 0 .5em;
+  color: #870044;
+}
+.site-container .section p, #site .section p {
+  font-size: 1.75rem;
+  line-height: 1.5em;
+  margin: 0 0 1em;
+}
+.site-container .section p a i, #site .section p a i {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: .25em;
+  vertical-align: middle;
+}
+.site-container .section i, #site .section i {
+  display: inline-block;
+  font-size: 12em;
+}
+.site-container .text-center, #site .text-center {
+  text-align: center;
+}
+.site-container .text-left, #site .text-left {
+  text-align: left;
+}
+.site-container .text-right, #site .text-right {
+  text-align: right;
+}
+.site-container .panel, #site .panel {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  outline: 0;
+  border: 0;
+  margin: 1em 1.25%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.site-container .panel h4, #site .panel h4 {
+  margin: 0;
+  font-weight: 600;
+  padding: 1.5rem;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dd2f46+0,870044+100 */
+  background: #dd2f46;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #dd2f46 0%, #870044 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd2f46', endColorstr='#870044',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  font-size: 2rem;
+  color: #fff;
+}
+.site-container .panel p, #site .panel p {
+  font-size: 1.75rem;
+  padding: 1.5rem;
+  margin: 0;
+  min-height: 8em;
+}
+.site-container .font-color-white h1, .site-container .font-color-white h2, .site-container .font-color-white h3, .site-container .font-color-white h4, .site-container .font-color-white h5, .site-container .font-color-white p, .site-container .font-color-white i, .site-container .font-color-white div, .site-container .font-color-white a, .site-container .font-color-white span, #site .font-color-white h1, #site .font-color-white h2, #site .font-color-white h3, #site .font-color-white h4, #site .font-color-white h5, #site .font-color-white p, #site .font-color-white i, #site .font-color-white div, #site .font-color-white a, #site .font-color-white span {
+  color: #fff;
+}
+.site-container .unicorn, #site .unicorn {
+  position: relative;
+}
+.site-container .unicorn img, #site .unicorn img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+}
+
+#imageSearchHtml {
+  display: none;
+}
+
+#nexpo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 5vh 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dd2f46+0,870044+100 */
+  background: #dd2f46;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #dd2f46 0%, #870044 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd2f46', endColorstr='#870044',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+#nexpo img.content {
+  display: block;
+  width: 100%;
+}
+
+#fbdc h3 {
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+#fbdc p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0 0 1em;
+}
+#fbdc i {
+  display: inline-block;
+  font-size: 15em;
+  opacity: .35;
+}
+#fbdc a {
+  cursor: pointer;
+  text-decoration: none;
+}
+#fbdc a i {
+  font-size: 2rem;
+  display: inline-block;
+  margin-right: .25em;
+}
+#fbdc .section {
+  padding: 5em 0;
+}
+#fbdc .text-center {
+  text-align: center;
+}
+#fbdc .response-container {
+  margin-top: 5em;
+  overflow: hidden;
+  min-height: 15em;
+  position: relative;
+}
+#fbdc .response-container i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  opacity: .1;
+}
+#fbdc .response-container p.message {
+  position: relative;
+  z-index: 5;
+  min-height: 3rem;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin: 0;
+  margin-top: 1em;
+  transition: all .25s;
+  -ms-transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+}
+#fbdc .response-container p.message span {
+  display: inline-block;
+  position: relative;
+  padding: .35em .75em;
+  top: 0;
+  background: rgba(190, 220, 255, 0.7);
+  border-radius: 5px;
+  transition: all .25s;
+  -ms-transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+}
+#fbdc .response-container p.response {
+  text-align: right;
+}
+#fbdc .response-container p.response span {
+  background: rgba(137, 255, 138, 0.7);
+  text-align: left;
+}
+#fbdc .response-container p.out {
+  margin-top: -3rem;
+}
+#fbdc .response-container p.out span {
+  position: relative;
+  top: -3em;
+}
+#fbdc .panel {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  outline: 0;
+  border: 0;
+  margin: 1em 1.25%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+#fbdc .panel h4 {
+  margin: 0;
+  font-weight: 600;
+  padding: 1.5rem;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dd2f46+0,870044+100 */
+  background: #dd2f46;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #dd2f46 0%, #870044 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd2f46', endColorstr='#870044',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  font-size: 2rem;
+  color: #fff;
+}
+#fbdc .panel p {
+  font-size: 1.75rem;
+  padding: 1.5rem;
+  margin: 0;
+  min-height: 8em;
+}
+#fbdc .banner {
+  position: relative;
+  overflow: hidden;
+  min-height: 1em;
+  padding: 10vh 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dd2f46+0,870044+100 */
+  background: #dd2f46;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #dd2f46 0%, #870044 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd2f46', endColorstr='#870044',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+#fbdc .banner h1 {
+  font-size: 8rem;
+  line-height: 11rem;
+  color: #fff;
+}
+#fbdc .banner p {
+  font-size: 2.5rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin: 0 0 1em;
+  color: #fff;
+  position: relative;
+  z-index: 50;
+}
+#fbdc .banner p a {
+  display: inline-block;
+  font-size: 1.65rem;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #fff;
+  margin-right: .5em;
+  border-radius: 5px;
+  padding: .25em 1em;
+  background: rgba(135, 0, 68, 0);
+  transition: all .15s;
+  -ms-transition: all .15s;
+  -moz-transition: all .15s;
+  -webkit-transition: all .15s;
+}
+#fbdc .banner p a i {
+  color: #fff;
+  display: inline-block;
+  font-size: .85em;
+  vertical-align: baseline;
+  margin-left: .25em;
+  margin-right: .25em;
+  transition: all .15s;
+  -ms-transition: all .15s;
+  -moz-transition: all .15s;
+  -webkit-transition: all .15s;
+}
+#fbdc .banner p a:hover {
+  background: white;
+  color: #870044;
+}
+#fbdc .banner p a:hover i {
+  color: #870044;
+}
+#fbdc .banner .title-container {
+  position: relative;
+}
+#fbdc .banner .title-container h1 {
+  position: relative;
+  z-index: 500;
+  font-weight: 600;
+  margin: 0;
+}
+#fbdc .banner .title-container #wavesContainer {
+  position: absolute;
+  left: 0;
+  top: -2em;
+}
+#fbdc .banner .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/graphy.png");
+  background-repeat: repeat;
+  z-index: 1;
+  opacity: .5;
+}
+#fbdc .embed-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5000;
+  text-align: center;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+#fbdc .embed-container iframe {
+  position: relative;
+  margin: 10vh auto;
+  min-height: 80vh;
+}
+
+#liveide {
+  padding: 4em 0;
+}
+#liveide h1 {
+  margin: 0;
+  font-size: 2em;
+}
+#liveide h1 .form-control {
+  font-size: inherit;
+  color: inherit;
+  border: 0;
+  border-bottom: 2px solid #ddd;
+  outline: 0;
+  box-shadow: 0 0 0;
+  padding: inherit;
+  height: auto;
+  font-weight: 400;
+  border-radius: 0;
+  letter-spacing: -1px;
+}
+#liveide h1 .form-control:focus {
+  border-bottom: 2px solid #444;
+}
+#liveide h2 {
+  font-size: 1em;
+  font-weight: 300;
+  margin: .5em 0 2em;
+}
+#liveide p {
+  margin: 0;
+}
+#liveide textarea {
+  margin-bottom: 3em;
+  color: #333;
+  font-size: 1.15rem;
+}
+#liveide .submit-btn, #liveide .save-btn, #liveide .live-btn {
+  display: inline-block;
+  padding: .5em 1.5em;
+  margin-left: 1.5em;
+  background: #eee;
+  color: #111;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  float: right;
+}
+#liveide .submit-btn:hover, #liveide .save-btn:hover, #liveide .live-btn:hover {
+  background: #ccc;
+}
+#liveide .ide-container {
+  position: relative;
+  padding-left: 23em;
+}
+#liveide #siteTree {
+  width: 20em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 1em;
+  background: #f1f1f1;
+  border: 1px solid #eaeaea;
+}
+#liveide #siteTree h3 {
+  font-size: 1em;
+  margin-top: 0;
+  font-weight: 400;
+}
+#liveide #siteTree h3 .submit {
+  background: transparent;
+  font-size: 1em;
+  padding: 0;
+  margin: 1.5em 0 0 0;
+  border: 0;
+  color: #111;
+}
+#liveide #siteTree ul.pages {
+  margin: 0;
+  padding: 0 0 0 1.5em;
+}
+#liveide #siteTree ul.pages li {
+  display: block;
+}
+#liveide #siteTree ul.pages li a {
+  display: block;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.75em;
+  padding-left: 1.5em;
+}
+#liveide #htmlInput {
+  display: block;
+  width: 100%;
+  min-height: 25em;
+  border: 1px solid #ccc;
+  outline: 0;
+  background: #fff;
+}
+#liveide #cssInput {
+  display: block;
+  width: 100%;
+  min-height: 15em;
+  border: 1px solid #ccc;
+  outline: 0;
+  background: #fff;
+}
+#liveide #jsInput {
+  display: block;
+  width: 100%;
+  min-height: 15em;
+  border: 1px solid #ccc;
+  outline: 0;
+  background: #fff;
+}
+#liveide #htmlInput:focus, #liveide #cssInput:focus, #liveide #jsInput:focus {
+  background: #fafafa;
+}
+#liveide .live-ide-form {
+  display: none;
+}
+
+#codebase {
+  padding: 8em 0;
+}
+#codebase h1 {
+  font-size: 3rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin: 0 0 .5em;
+}
+#codebase h1 a {
+  display: inline-block;
+  float: right;
+}
+#codebase h1 a i {
+  display: inline-block;
+  margin-right: .25em;
+  font-size: .75em;
+  vertical-align: baseline;
+}
+#codebase h3 {
+  font-size: 1.75rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin: 0 0 1em;
+}
+#codebase .code {
+  display: block;
+  padding: 1em;
+  background: #f1f1f1;
+  border: 2px solid #ececec;
+}
+#codebase .code h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 0 .5em;
+  color: #999;
+}
+
+#demo {
+  padding: 8em 0;
+}
+#demo h1 {
+  font-size: 3em;
+  font-weight: 400;
+  margin: 0 0 .5em;
+}
+#demo h3 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  margin: 1em 0 .35em;
+}
+#demo p {
+  font-size: 1.15em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+#demo .links {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+#demo .links p {
+  margin: 0 0 1.5em;
+}
+#demo .links a.link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  padding: .5em 1em;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  font-weight: 700;
+  opacity: .75;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  transition: all .15s;
+  -moz-transition: all .15s;
+  -ms-transition: all .15s;
+  -webkit-transition: all .15s;
+}
+#demo .links a.link i {
+  display: inline-block;
+  font-size: 1.5em;
+  color: #333;
+  vertical-align: sub;
+  margin-right: .5rem;
+  opacity: .6;
+  transition: all .15s;
+  -moz-transition: all .15s;
+  -ms-transition: all .15s;
+  -webkit-transition: all .15s;
+}
+#demo .links a.link:hover {
+  opacity: 1;
+  border: 2px solid black;
+}
+#demo .links a.link:hover i {
+  opacity: 1;
+}
+
+#product {
+  margin-left: 28rem;
+}
+#product form#new_page {
+  display: none;
+}
+#product .conversation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 28rem;
+  height: 100vh;
+  border: 0;
+  background: #fafafa;
+  border-right: 3px solid #efefef;
+  padding: 1em;
+}
+#product .conversation .input-container {
+  position: relative;
+}
+#product .conversation .input-container #startBtn {
+  position: absolute;
+  left: 0;
+  outline: 0;
+  top: 0;
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #870044;
+  opacity: .6;
+  border-radius: 2rem;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dd2f46+0,870044+100 */
+  background: #dd2f46;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #dd2f46 0%, #870044 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #dd2f46 0%, #870044 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd2f46', endColorstr='#870044',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+#product .conversation .input-container #startBtn i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #fff;
+}
+#product .conversation .input-container #startBtn:hover {
+  opacity: .8;
+}
+#product .conversation .input-container #startBtn.active {
+  opacity: 1;
+}
+#product .conversation .input-container input {
+  width: 20rem;
+  border: 0;
+  background: transparent;
+  border-bottom: 2px solid #eee;
+  outline: 0;
+  height: auto;
+  font-size: 1.15em;
+  line-height: 3rem;
+  margin-left: 5rem;
+  margin-bottom: 1.5em;
+  transition: all .15s;
+  -ms-transition: all .15s;
+  -moz-transition: all .15s;
+  -webkit-transition: all .15s;
+}
+#product .conversation .input-container input:focus {
+  border-bottom: 2px solid #870044;
+}
+#product .conversation .response-container {
+  overflow: hidden;
+}
+#product .conversation .response-container p.message {
+  position: relative;
+  min-height: 3rem;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin: 0;
+  margin-top: 1em;
+  transition: all .25s;
+  -ms-transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+}
+#product .conversation .response-container p.message span {
+  display: inline-block;
+  position: relative;
+  padding: .35em .75em;
+  top: 0;
+  background: rgba(125, 167, 216, 0.3);
+  border-radius: 5px;
+  transition: all .25s;
+  -ms-transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+}
+#product .conversation .response-container p.response {
+  text-align: right;
+}
+#product .conversation .response-container p.response span {
+  background: rgba(50, 220, 50, 0.3);
+  text-align: left;
+}
+#product .conversation .response-container p.out {
+  margin-top: -3rem;
+}
+#product .conversation .response-container p.out span {
+  position: relative;
+  top: -3em;
+}

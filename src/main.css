@@ -1,0 +1,103 @@
+
+.section {
+  background: #f1f1f1;
+  padding: 6em 0;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.banner {
+  display: block;
+  padding: 10em 0 4em;
+  min-height: 60vh;
+  background: #ccc;
+  font-size: 3em;
+  background-image: url("/assets/doodles.png");
+  background-position: center;
+  background-repeat: repeat;
+  transition: background-image 1s ease-in-out;
+}
+
+#imageSearchHtml {
+  display: none;
+}
+
+#product .site-container .section {
+  margin-left: 25em;
+  background: url("/assets/topography.png");
+  background-position: center;
+  background-repeat: repeat;
+}
+#product form#new_page {
+  display: none;
+}
+#product .conversation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 25em;
+  height: 100vh;
+  border-right: 2px solid #ccc;
+  padding: 1em;
+  z-index: 500;
+  background: #fff;
+}
+#product .conversation .input-container {
+  position: relative;
+}
+#product .conversation .input-container #startBtn {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#product .conversation .input-container input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #eee;
+  outline: 0;
+  height: auto;
+  font-size: 1.15em;
+  line-height: 2em;
+  padding-left: 3.5em;
+  margin-bottom: 1.5em;
+}
+#product .conversation .response-container {
+  overflow: hidden;
+}
+#product .conversation .response-container p.message {
+  position: relative;
+  min-height: 3rem;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin: 0;
+  margin-top: 1em;
+  transition: all .25s;
+  -ms-transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+}
+#product .conversation .response-container p.message span {
+  display: inline-block;
+  position: relative;
+  padding: .35em .75em;
+  top: 0;
+  background: rgba(125, 167, 216, 0.3);
+  border-radius: 5px;
+  transition: all .25s;
+  -ms-transition: all .25s;
+  -moz-transition: all .25s;
+  -webkit-transition: all .25s;
+}
+#product .conversation .response-container p.response {
+  text-align: right;
+}
+#product .conversation .response-container p.response span {
+  background: rgba(50, 220, 50, 0.3);
+}
+#product .conversation .response-container p.out {
+  margin-top: -3rem;
+}
+#product .conversation .response-container p.out span {
+  position: relative;
+  top: -3em;
+}
