@@ -24,13 +24,13 @@ Prototyping web pages through this natural language process eliminates technical
 
 ## Technical Details
 
-Vocalize is built using several technologies, but core is the React js library and node.js.  This project is built from a foundational react codebase that may be accessed here:  https://github.com/facebookincubator/create-react-app
+Vocalize is built using several technologies, but core is the React js library and node.js.
 
-Natural language processing makes use of several tools including but not limited to Microsoft Bing Speech API and IBM Watson.
+Natural language processing makes use of several tools including but not limited to Microsoft Bing Speech API and IBM Watson speech-to-text, text-to-speech, and conversation.
 
 The application front-end is built in [Bootstrap](https://getbootstrap.com/), [React](https://reactjs.org/), HTML, CSS, Javascript.
 
-The web application is deployed onto Heroku servers.  There is a second "background app" that makes this tool run effectively, it is a Ruby on Rails "vocalize" app that is also hosted on heroku.  This "background app" is only necessary for creating/accessing a Database (postgres) and routing APIs for Vocalize.  You may be asking yourself at this point, "why would you do that?"  That is a good question.  If I were a good developer who could properly code a backend in node.js, then I suppose the Rails app would be pointless.
+The web application is deployed onto Heroku servers.  There is a second "background app" that makes this tool run effectively, it is a Ruby on Rails "vocalize" app that is also hosted on heroku.  This "background app" is only necessary for creating/accessing a Database (postgresql) and routing APIs for Vocalize.  If you have even modest development experience, you may be asking yourself, "why would he do that?"  That is a good question.  If I were a good developer who could properly code a backend in node.js, then I suppose the Rails app would be unnecessary.
 
 
 ## Feedback / Questions
