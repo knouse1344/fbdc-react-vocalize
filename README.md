@@ -1,8 +1,9 @@
-## vocalize:  create web pages through natural language
+# vocalize:  create web pages through natural language
 
 vocalize is a tool used to rapidly prototype web pages through natural spoken language.  The output of this tool is a live website (for normal people), or alternatively you may access the HTML, CSS, and Javascript output (for nerds) that is written by vocalize in real-time as you talk to it.
 
 ![vocalize screenshot building an application](https://s3.amazonaws.com/responsivetech/assets/vehicles.png "vocalize screenshot")
+_Figure 1: screenshot of the web building experience with vocalize_
 
 ## table of contents
 
@@ -21,9 +22,9 @@ vocalize was created for the [Facebook Developer Circles Community Challenge](ht
 
 There are several ways to make use of this tool.  The simplest process is to use vocalize to create web pages that are built, deployed, and viewable on the web in minutes.  This may be useful for weekend projects, small events, or marketing campaigns that need microsites generated quickly.  To do this:
 
-1)  Head to [vocalize](http://vocalize-3.herokuapp.com/) and click "try it"
-2)  Tell vocalize what you want to make.  If you need examples of things to say, just ask for "help"
-3)  When you are satisfied with your progress you may "save project".  A link to the live website will be available as well as a link to the HTML and CSS.
+1.  Head to [vocalize](http://vocalize-3.herokuapp.com/) and click "try it"
+2.  Tell vocalize what you want to make.  If you need examples of things to say, just ask for "help"
+3.  When you are satisfied with your progress you may "save project".  A link to the live website will be available as well as a link to the HTML and CSS.
 
 vocalize may be used to support complex web development processes.  These environments typically require more capability and customization, especially in the digital interactive / web development space.  Technical environments like this are often found at the "enterprise". For these scenarios, vocalize can generate HTML, CSS, and Javascript frontends that teams may then grab and insert into any other project, or continue editing code manually through a text editor.
 
