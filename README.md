@@ -8,9 +8,9 @@
 
 Try it:  [build a web page with vocalize](http://vocalize-3.herokuapp.com/)
 
-Vocalize is a tool used to rapidly prototyping web frontends through natural spoken language.  The output is standard HTML, CSS, and Javascript written by Vocalize in real-time as you talk to it.  
+Vocalize is a tool used to rapidly prototype web pages through natural spoken language.  The output is a live website (for normal people), or standard HTML, CSS, and Javascript (for nerds) written by Vocalize in real-time as you talk to it.  
 
-Vocalize was created for the Facebook Developer Circles Community Challenge.  This application is built using the React.js library and originally developed from the Create React App turial/codebase. 
+Vocalize was created for the Facebook Developer Circles Community Challenge.  This application is built using the React.js library and originally developed from the [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Use Vocalize
 
